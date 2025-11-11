@@ -1,0 +1,85 @@
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+# Rider / IntelliJ
+.idea/
+*.iml
+# Optional: keep code style & run configs by removing the lines above and ignore only user-specific:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/**/usage.statistics.xml
+# .idea/**/dictionaries
+# .idea/**/shelf
+# .idea/httpRequests/
+
+# VS Code (often harmless to keep ignored in .NET repos)
+.vscode/
+
+# Visual Studio (if teammates use it)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# ---- .NET build output ----
+bin/
+obj/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+out/
+
+# Test results & coverage
+TestResult*/
+[TestResults]/
+*.coverage
+*.coveragexml
+*.trx
+.coverage/
+.coverlet/
+
+# ---- NuGet ----
+# For SDK-style projects, packages are restored to global cache; keep local packages ignored.
+packages/
+*.nupkg
+*.snupkg
+# NuGet v3’s project.json/lock (legacy)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- Logs & misc ----
+*.log
+*.svclog
+*.pidb
+*.mdb
+*.dbmdl
+*.jfm
+
+# ---- ReSharper (if present) ----
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# ---- Entity Framework ----
+# (Migrations are usually committed; no ignore needed)
+
+# ---- ASP.NET config overrides (local-only) ----
+appsettings.*.local.json
+appsettings.Local.json
+
+# ---- Rider HTTP client scratch ----
+httpRequests/
+
+# ---- Optional: front-end (uncomment if you have a SPA in the solution) ----
+# node_modules/
+# dist/
+# build/
+
+# ---- Docker (optional; often committed) ----
+# docker-compose.override.yml
